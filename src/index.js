@@ -29,7 +29,7 @@ if (operator === "-") {
 }  else if (operator === "**") {
     calcul = firstNumber ** secondNumber;
 } else {
-    calcul = "please enter a valid operator";
+    calcul = "is not valid please enter a valid operator";
 }
 
-alert(calcul);
+alert("the result is " + calcul);
